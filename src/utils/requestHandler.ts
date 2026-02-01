@@ -1,7 +1,7 @@
 "use client";
 import { useAuthStore } from "@/store/AuthStore";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "";
+const API_BASE = "";
 
 
 async function refreshToken() {
